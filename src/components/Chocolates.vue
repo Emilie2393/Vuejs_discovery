@@ -4,33 +4,19 @@
     <ul>
       <li v-for="product in products" v-bind:key="product.id">
         <h3>{{ product.title }}</h3>
-        <p>{{ product.price }}</p>
+        <p>{{ product.price + " €" }}</p>
         <img :src="product.img" :alt="product.title"/>
         <button @click="product.total++">ajouter au panier</button>
       </li>
     </ul>
-    <div>
-      <h3>Panier</h3>
-      <ul>
-        <li v-for="product in products" v-bind:key="product.id">
-          <div v-if="product.total > 0"> 
-            <p>{{ product.title }}</p>
-            <p>{{ product.total }}</p>
-          </div>
-          
-        </li>
-      </ul>
-    </div>
     
   </div>
-
-  
 </template>
 
 <script>
 
 export default {
-  name: 'Chocolates_products',
+  name: 'ChocolatesProducts',
   props: {
     msg: String
   },

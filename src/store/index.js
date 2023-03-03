@@ -10,21 +10,21 @@ export default createStore({
       {
         id: 1,
         title: "chocolat blanc",
-        price: 15 + " €",
+        price: 15,
         img: chocoBlanc,
         total: 0
       },
       {
         id: 2,
         title: "chocolat noir",
-        price: 23 + " €",
+        price: 23,
         img: chocoBlack,
         total: 0
       },
       {
         id:3,
         title: "chocolat lait",
-        price: 12 + " €",
+        price: 12,
         img: chocoMilk,
         total: 0
       }

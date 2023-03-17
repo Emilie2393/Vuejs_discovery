@@ -8,7 +8,6 @@
             <p>{{"x " + product.total }}</p>
             <p>{{ product.price * product.total + " €"}}</p>
           </div>
-          
         </li>
       </ul>
   </div>

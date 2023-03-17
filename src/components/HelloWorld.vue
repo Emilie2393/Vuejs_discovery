@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>Une boutique sur le thème du chocolat</p>
+    <h1>Chocoland</h1>
+    <p>{{ msg }}</p>
     
   </div>
 
@@ -19,5 +19,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+
+p {
+  font-style: italic;
+  font-size: 1.1em;
+  margin-top:50px;
+}
 
 </style>
